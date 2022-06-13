@@ -34,7 +34,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
   spec.extra_rdoc_files = Dir['README.md', 'LICENSE.txt', 'CODE_OF_CONDUCT.md']
 
-  spec.add_dependency 'activesupport', '~> 6.1'
+  spec.add_dependency 'activesupport', '~> 7.0'
   spec.add_dependency 'nokogiri', '~>1.12'
   spec.add_dependency 'oauth2', '~>1.2'
   spec.add_dependency 'omniauth-oauth2', '~> 1.7'
